@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		3F1AD6D1233ACEDB0009B5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AD6D0233ACEDB0009B5AD /* AppDelegate.swift */; };
 		3F1AD6D3233ACEDB0009B5AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AD6D2233ACEDB0009B5AD /* SceneDelegate.swift */; };
-		3F1AD6D5233ACEDB0009B5AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AD6D4233ACEDB0009B5AD /* ViewController.swift */; };
+		3F1AD6D5233ACEDB0009B5AD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AD6D4233ACEDB0009B5AD /* MainViewController.swift */; };
 		3F1AD6D8233ACEDB0009B5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AD6D6233ACEDB0009B5AD /* Main.storyboard */; };
 		3F1AD6DA233ACEDB0009B5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AD6D9233ACEDB0009B5AD /* Assets.xcassets */; };
 		3F1AD6DD233ACEDC0009B5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AD6DB233ACEDC0009B5AD /* LaunchScreen.storyboard */; };
 		3F1AD6E8233ACEDC0009B5AD /* QuizGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AD6E7233ACEDC0009B5AD /* QuizGameTests.swift */; };
 		3F1AD6F3233ACEDC0009B5AD /* QuizGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AD6F2233ACEDC0009B5AD /* QuizGameUITests.swift */; };
+		3F1AD701233AD33B0009B5AD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AD700233AD33B0009B5AD /* Question.swift */; };
+		3F1AD707233AE7450009B5AD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AD706233AE7450009B5AD /* GameViewController.swift */; };
+		3F1AD709233AEECD0009B5AD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AD708233AEECD0009B5AD /* Game.swift */; };
+		3F1AD70B233AEEF10009B5AD /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AD70A233AEEF10009B5AD /* GameSession.swift */; };
+		3F587D6D233B648C00CAB77C /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F587D6C233B648C00CAB77C /* UIViewController+ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,7 @@
 		3F1AD6CD233ACEDB0009B5AD /* QuizGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1AD6D0233ACEDB0009B5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F1AD6D2233ACEDB0009B5AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F1AD6D4233ACEDB0009B5AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F1AD6D4233ACEDB0009B5AD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3F1AD6D7233ACEDB0009B5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F1AD6D9233ACEDB0009B5AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1AD6DC233ACEDC0009B5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		3F1AD6EE233ACEDC0009B5AD /* QuizGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1AD6F2233ACEDC0009B5AD /* QuizGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGameUITests.swift; sourceTree = "<group>"; };
 		3F1AD6F4233ACEDC0009B5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1AD700233AD33B0009B5AD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		3F1AD706233AE7450009B5AD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3F1AD708233AEECD0009B5AD /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		3F1AD70A233AEEF10009B5AD /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		3F587D6C233B648C00CAB77C /* UIViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +109,9 @@
 		3F1AD6CF233ACEDB0009B5AD /* QuizGame */ = {
 			isa = PBXGroup;
 			children = (
-				3F1AD6D0233ACEDB0009B5AD /* AppDelegate.swift */,
-				3F1AD6D2233ACEDB0009B5AD /* SceneDelegate.swift */,
-				3F1AD6D4233ACEDB0009B5AD /* ViewController.swift */,
-				3F1AD6D6233ACEDB0009B5AD /* Main.storyboard */,
-				3F1AD6D9233ACEDB0009B5AD /* Assets.xcassets */,
-				3F1AD6DB233ACEDC0009B5AD /* LaunchScreen.storyboard */,
+				3F1AD702233AD3800009B5AD /* App */,
+				3F587D6B233B63EF00CAB77C /* Core */,
+				3F1AD704233AD4850009B5AD /* Resources */,
 				3F1AD6DE233ACEDC0009B5AD /* Info.plist */,
 			);
 			path = QuizGame;
@@ -126,6 +133,54 @@
 				3F1AD6F4233ACEDC0009B5AD /* Info.plist */,
 			);
 			path = QuizGameUITests;
+			sourceTree = "<group>";
+		};
+		3F1AD702233AD3800009B5AD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3F1AD6D0233ACEDB0009B5AD /* AppDelegate.swift */,
+				3F1AD703233AD4490009B5AD /* Entity */,
+				3F1AD705233AD5700009B5AD /* Flows */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3F1AD703233AD4490009B5AD /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3F1AD700233AD33B0009B5AD /* Question.swift */,
+				3F1AD708233AEECD0009B5AD /* Game.swift */,
+				3F1AD70A233AEEF10009B5AD /* GameSession.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3F1AD704233AD4850009B5AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F1AD6D9233ACEDB0009B5AD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3F1AD705233AD5700009B5AD /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				3F1AD6D2233ACEDB0009B5AD /* SceneDelegate.swift */,
+				3F1AD706233AE7450009B5AD /* GameViewController.swift */,
+				3F1AD6D4233ACEDB0009B5AD /* MainViewController.swift */,
+				3F1AD6D6233ACEDB0009B5AD /* Main.storyboard */,
+				3F1AD6DB233ACEDC0009B5AD /* LaunchScreen.storyboard */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		3F587D6B233B63EF00CAB77C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3F587D6C233B648C00CAB77C /* UIViewController+ext.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F1AD6D5233ACEDB0009B5AD /* ViewController.swift in Sources */,
+				3F1AD707233AE7450009B5AD /* GameViewController.swift in Sources */,
+				3F1AD709233AEECD0009B5AD /* Game.swift in Sources */,
+				3F1AD6D5233ACEDB0009B5AD /* MainViewController.swift in Sources */,
+				3F1AD701233AD33B0009B5AD /* Question.swift in Sources */,
+				3F1AD70B233AEEF10009B5AD /* GameSession.swift in Sources */,
 				3F1AD6D1233ACEDB0009B5AD /* AppDelegate.swift in Sources */,
+				3F587D6D233B648C00CAB77C /* UIViewController+ext.swift in Sources */,
 				3F1AD6D3233ACEDB0009B5AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
